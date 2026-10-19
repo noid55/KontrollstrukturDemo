@@ -24,5 +24,21 @@ public class IfStatements {
         } else {
             System.out.println("Else block");
         }
+
+
+        int temperatur = 8;
+        if (temperatur < 10) {
+            System.out.println("Wear a coat or sweater");
+        } else {
+            System.out.println("It's probably ok to wear a t-shirt");
+        }
+
+        //Hva skriver koden ut?
+        int saldo = 80;
+        if (saldo >= 100) {
+            System.out.println("Du kan kjøpe varen");
+        } else {
+            System.out.println("Du har ikke nok penger");
+        }
     }
 }
