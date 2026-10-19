@@ -38,8 +38,6 @@ public class Student {
         Student student1 = new Student("Eirik", 1500, 123456789);
         System.out.println(student1.age);
 
-        for (int i = 0; i < 10; i++) {
-            Student student+i =
-        }
+
     }
 }
