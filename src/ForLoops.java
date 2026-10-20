@@ -24,10 +24,10 @@ public class ForLoops {
             System.out.println(stringArray[i]);
         }
 
-        int array[] = {1, 2, 3, 45, 5, 6, 7, 8, 9, 345, 456, 678, 3456};
+        int[] intArray = {1, 2, 3, 45, 5, 6, 7, 8, 9, 345, 456, 678, 3456};
         int sum = 0;
-        for (int j : array) {
-            sum += j;
+        for (int i = 0; i < intArray.length; i++) {
+            sum += intArray[i];
         }
         System.out.println("Sum of the array is: " + sum);
 
